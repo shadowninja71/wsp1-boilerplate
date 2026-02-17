@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "nodemon -e js,html,njk,json,css start.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
